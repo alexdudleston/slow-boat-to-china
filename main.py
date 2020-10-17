@@ -10,7 +10,7 @@ def checkpassword():
     password=entry_2.get()
     if username=="slow boat":
         if password=="to china":
-            messagebox.showinfo("Logged in")
+            messagebox.showinfo("Logged in!")
             time.sleep(2)
             lscreen.destroy
             mscreen()  
